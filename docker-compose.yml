@@ -2,7 +2,7 @@ version: '3.4'
 services:
   linuxgsm:
     image: "ghcr.io/gameservermanagers/linuxgsm-docker:latest"
-    container_name: csgoserver
+    container_name: l4d2server
     environment:
       - GAMESERVER=l4d2server
       - LGSM_GITHUBUSER=GameServerManagers
