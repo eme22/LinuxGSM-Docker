@@ -4,7 +4,7 @@ services:
     image: "ghcr.io/gameservermanagers/linuxgsm-docker:latest"
     container_name: csgoserver
     environment:
-      - GAMESERVER=csgoserver
+      - GAMESERVER=l4d2server
       - LGSM_GITHUBUSER=GameServerManagers
       - LGSM_GITHUBREPO=LinuxGSM
       - LGSM_GITHUBBRANCH=master

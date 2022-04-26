@@ -1,12 +1,7 @@
-#
-# LinuxGSM Base Dockerfile
-#
-# https://github.com/GameServerManagers/LinuxGSM-Docker
-#
+FROM bitnami/minideb:stretch
+# Default configurations
 
-FROM ubuntu:20.04
-
-LABEL maintainer="LinuxGSM <me@danielgibbs.co.uk>"
+ABEL maintainer="LinuxGSM <me@danielgibbs.co.uk>"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV TERM=xterm
